@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885E10AA1CFD661200CB39C2 /* NSTextField+copypast.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E10A91CFD661200CB39C2 /* NSTextField+copypast.m */; };
+		885E10B21CFD693700CB39C2 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E10AD1CFD693700CB39C2 /* TFHpple.m */; };
+		885E10B31CFD693700CB39C2 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E10AF1CFD693700CB39C2 /* TFHppleElement.m */; };
+		885E10B41CFD693700CB39C2 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E10B11CFD693700CB39C2 /* XPathQuery.m */; };
+		885E10B91CFD6BAD00CB39C2 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 885E10B51CFD6B0800CB39C2 /* libxml2.tbd */; };
 		887957BE1CFC4168006D974F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 887957BD1CFC4168006D974F /* AppDelegate.m */; };
 		887957C11CFC4168006D974F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 887957C01CFC4168006D974F /* main.m */; };
 		887957C41CFC4168006D974F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887957C31CFC4168006D974F /* ViewController.m */; };
 		887957C61CFC4168006D974F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887957C51CFC4168006D974F /* Assets.xcassets */; };
 		887957C91CFC4168006D974F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887957C71CFC4168006D974F /* Main.storyboard */; };
+		887957D41CFC46AB006D974F /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 887957D11CFC46AB006D974F /* banner.png */; };
+		887957D51CFC46AB006D974F /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 887957D21CFC46AB006D974F /* banner@2x.png */; };
+		887957D61CFC46AB006D974F /* banner@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 887957D31CFC46AB006D974F /* banner@3x.png */; };
+		887957D91CFC4932006D974F /* SufileResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 887957D81CFC4932006D974F /* SufileResolve.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		885E10A81CFD661200CB39C2 /* NSTextField+copypast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextField+copypast.h"; sourceTree = "<group>"; };
+		885E10A91CFD661200CB39C2 /* NSTextField+copypast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextField+copypast.m"; sourceTree = "<group>"; };
+		885E10AC1CFD693700CB39C2 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		885E10AD1CFD693700CB39C2 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		885E10AE1CFD693700CB39C2 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		885E10AF1CFD693700CB39C2 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		885E10B01CFD693700CB39C2 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		885E10B11CFD693700CB39C2 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		885E10B51CFD6B0800CB39C2 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		885E10B71CFD6B1500CB39C2 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		887957B91CFC4167006D974F /* XSufileResolving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSufileResolving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		887957BC1CFC4168006D974F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		887957BD1CFC4168006D974F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -24,6 +43,11 @@
 		887957C51CFC4168006D974F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		887957C81CFC4168006D974F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		887957CA1CFC4168006D974F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887957D11CFC46AB006D974F /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
+		887957D21CFC46AB006D974F /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@2x.png"; sourceTree = "<group>"; };
+		887957D31CFC46AB006D974F /* banner@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@3x.png"; sourceTree = "<group>"; };
+		887957D71CFC4932006D974F /* SufileResolve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SufileResolve.h; sourceTree = "<group>"; };
+		887957D81CFC4932006D974F /* SufileResolve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SufileResolve.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,15 +55,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885E10B91CFD6BAD00CB39C2 /* libxml2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		885E10AB1CFD693700CB39C2 /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				885E10AC1CFD693700CB39C2 /* TFHpple.h */,
+				885E10AD1CFD693700CB39C2 /* TFHpple.m */,
+				885E10AE1CFD693700CB39C2 /* TFHppleElement.h */,
+				885E10AF1CFD693700CB39C2 /* TFHppleElement.m */,
+				885E10B01CFD693700CB39C2 /* XPathQuery.h */,
+				885E10B11CFD693700CB39C2 /* XPathQuery.m */,
+			);
+			path = Hpple;
+			sourceTree = "<group>";
+		};
 		887957B01CFC4167006D974F = {
 			isa = PBXGroup;
 			children = (
+				885E10B71CFD6B1500CB39C2 /* libxml2.2.tbd */,
+				885E10B51CFD6B0800CB39C2 /* libxml2.tbd */,
+				887957D01CFC4695006D974F /* Resources */,
 				887957BB1CFC4167006D974F /* XSufileResolving */,
 				887957BA1CFC4167006D974F /* Products */,
 			);
@@ -56,6 +97,7 @@
 		887957BB1CFC4167006D974F /* XSufileResolving */ = {
 			isa = PBXGroup;
 			children = (
+				885E10AB1CFD693700CB39C2 /* Hpple */,
 				887957BC1CFC4168006D974F /* AppDelegate.h */,
 				887957BD1CFC4168006D974F /* AppDelegate.m */,
 				887957C21CFC4168006D974F /* ViewController.h */,
@@ -64,6 +106,10 @@
 				887957C71CFC4168006D974F /* Main.storyboard */,
 				887957CA1CFC4168006D974F /* Info.plist */,
 				887957BF1CFC4168006D974F /* Supporting Files */,
+				887957D71CFC4932006D974F /* SufileResolve.h */,
+				887957D81CFC4932006D974F /* SufileResolve.m */,
+				885E10A81CFD661200CB39C2 /* NSTextField+copypast.h */,
+				885E10A91CFD661200CB39C2 /* NSTextField+copypast.m */,
 			);
 			path = XSufileResolving;
 			sourceTree = "<group>";
@@ -74,6 +120,16 @@
 				887957C01CFC4168006D974F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		887957D01CFC4695006D974F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				887957D11CFC46AB006D974F /* banner.png */,
+				887957D21CFC46AB006D974F /* banner@2x.png */,
+				887957D31CFC46AB006D974F /* banner@3x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +189,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887957D51CFC46AB006D974F /* banner@2x.png in Resources */,
+				887957D41CFC46AB006D974F /* banner.png in Resources */,
 				887957C61CFC4168006D974F /* Assets.xcassets in Resources */,
 				887957C91CFC4168006D974F /* Main.storyboard in Resources */,
+				887957D61CFC46AB006D974F /* banner@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +205,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				887957C41CFC4168006D974F /* ViewController.m in Sources */,
+				885E10B31CFD693700CB39C2 /* TFHppleElement.m in Sources */,
+				885E10B41CFD693700CB39C2 /* XPathQuery.m in Sources */,
+				885E10B21CFD693700CB39C2 /* TFHpple.m in Sources */,
 				887957C11CFC4168006D974F /* main.m in Sources */,
+				887957D91CFC4932006D974F /* SufileResolve.m in Sources */,
+				885E10AA1CFD661200CB39C2 /* NSTextField+copypast.m in Sources */,
 				887957BE1CFC4168006D974F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = XSufileResolving/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -264,6 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = XSufileResolving/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -291,6 +357,7 @@
 				887957CF1CFC4168006D974F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
